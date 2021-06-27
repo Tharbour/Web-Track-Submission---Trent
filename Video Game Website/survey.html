@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Survey</title>
+        <link rel="shortcut icon" href="./log.png">
+    </head>
+    <body>
+        <nav>
+            <ul> 
+                <li><a class = "active" href = "index.html"> Home</a></li>
+                <li><a href ="Information.html">Facts About Video Games And Teens</a></li>
+                <li><a href ="Covid.html">How Popular Were Video Games during Covid-19?</a></li>
+                <li><a href ="survey.html">Quick Survey</a></li>
+            </u1>
+        </nav>
+        <body>
+            <main id="content">
+            <header id="title">
+                <h1>Quick Survey about Video Games.</h1>
+            </header>
+    <h3>Please Fill Out the Survey!</h3>
+    <form id="survey-form">
+        <div class="input-headings">
+        <label for="name"> Name </label>
+        <input id ="name" type="text" name="name" placeholder="Trent Harbour" class="form-input" required> </input>
+        <br>
+        <label for="number" id="number-label"> Age </label>
+        <input id="number" type="number" name="number" min="0" max="100" placeholder="18" class="form-input" required> </input>
+        <br>
+        <br>
+        <label for="Gender" id="Gender" > <b> Gender: </b> </label>
+        <br>
+          <input id="Gender" type="radio" name="g1" value="Male">
+          <label for="Gender"> Male </label>
+        <br>
+          <input id="Gender" type="radio" name="g1" value="Female">
+          <label for="Gender"> Female </label>
+        <br>
+          <input id="Gender" type="radio" name="g1" value="Other">
+          <label for="Gender"> Other </label>
+        <br>
+        <br>
+    <label for="dropdown" id="model" style="width: 90vw;"> <b>1. How Many Hours of Video Games do you play per day?</b> </label>
+    <br>
+     <select id="dropdown" class="form-input">
+          <option value = "0"> 0</option>
+           <option value = "1"> 1</option>
+           <option value = "2"> 2</option>
+           <option value = "3"> 3</option>
+           <option value = "4"> 4</option>
+           <option value = "5+"> 5+</option>
+        </select>
+        <br>
+        <br>
+        <label for="Platform" id="Platform"> <b>2. If You Play Video Games What Platform Do You Usually Use? </b> </label>
+        <br>
+          <input id="Platform" type="radio" name="Plat" value="PC">
+          <label for="Platform"> PC/Computer </label>
+        <br>
+          <input id="Platform" type="radio" name="Plat" value="Console">
+          <label for="Platform"> Console/Xbox/PlayStation/Nintendo </label>
+        <br>
+          <input id="Platform" type="radio" name="Plat" value="Mobile">
+          <label for="Platform"> Mobile </label>
+        <br>
+        <input id="Platform" type="radio" name="Plat" value="None">
+        <label for="Platform"> None </label>
+        <br>
+        <br>
+        <label for="features"> <b>3. What Genres of Video Games do you play? Select Multiple that apply: </b></label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Action">
+        <label for="checkbox" type="checkbox"> Action </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Adventure">
+        <label for="checkbox" type="checkbox"> Adventure </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Shooter">
+        <label for="checkbox" type="checkbox"> Shooter </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Racing">
+        <label for="checkbox" type="checkbox"> Racing </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Platform">
+        <label for="checkbox" type="checkbox"> Platform </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Puzzle">
+        <label for="checkbox" type="checkbox"> Puzzle </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Sports">
+        <label for="checkbox" type="checkbox"> Sports </label>
+        <br>
+        <input id="checkbox" type="checkbox" name="Genres" value="Other">
+        <label for="checkbox" type="checkbox"> Other </label>
+        <br>
+        <br>
+        <label for="Grades" id="Grades"> <b>4. Has Playing Video Games Negativly Affected your school Grades? </b> </label>
+        <br>
+          <input id="Grades" type="radio" name="Grade" value="None">
+          <label for="Grades"> Not At All </label>
+        <br>
+          <input id="Grades" type="radio" name="Grade" value="Little">
+          <label for="Grades"> A Little</label>
+        <br>
+          <input id="Grades" type="radio" name="Grade" value="Lot">
+          <label for="Grades"> A Lot </label>
+        <br>
+        <br>
+        <label id="text"> Additional Comments: </label>
+        <br>
+            <textarea id="text" name="insturctions" rows="5" cols="59.5"> 
+            </textarea>
+        <br>
+            <input id="submit" type="submit" value="Submit" class="submit-button">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
